@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Painel administrativo da pizzaria</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <div class="cabecalho">
+            </div>
+            <img class= "logotipo" src="./images/logotipo.png" alt="logotipo">
+        
+            <ul class="lista_menu menu">
+                <li><a href=""><button class="button1"> DASHBOARD </button></a></li>
+                <li><a href=""><button class="button1"> CLIENTES </button></a></li>
+            </ul>   
+        </div> 
+    </nav>
+
+    <section id = "lista">
+
+    </section>
+    <section id = "form_add">
+        <label> Cadastrar Cliente</label>
+        <input type = "text" id = "input">
+        <button onclick="cadastrarItem()"> Cadastrar </button>
+    </section>
+
+
+    <div onclick ="exibirFormulario()" class="btn__add">
+        <span class="material-symbols-outlined"> add </span>
+    </div>
+    <script src="./js/paineladministrador.js"></script>
+</body>
+</html>

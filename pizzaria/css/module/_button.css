@@ -1,0 +1,41 @@
+button {
+    width: 150px;
+    height: 50px;
+    background-color: var(--cor-preta);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: var(--cor-branca);
+    font-family: var(--font-family-oswald);
+    cursor: pointer;
+    border:none;
+}
+.button1:hover{
+    color: var(--cor-branca);
+    background-color: transparent;
+    border: 1px solid var(--cor-branca); 
+}
+
+.button2:hover{
+    color: var(--cor-preta);
+    background-color: transparent;
+    border: 1px solid var(--cor-preta);
+}
+.button2{
+    background-color: #da582f;
+}
+.btn__add{
+    width: 72px;
+    height: 72px;
+    background-color: #da582f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 50%;
+    bottom: 96px;
+    right: 96px;
+    box-shadow: 5px 2px 2px black;
+}

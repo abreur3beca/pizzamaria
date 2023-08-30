@@ -1,0 +1,65 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 100px 100px auto;
+    position: relative;
+    ;
+}
+nav {
+    grid-column: 1/13;
+    grid-row-start: 1;
+}
+.mensagem_principal {
+    grid-column: 2/8;
+    grid-row-start: 3;
+    animation-name: mensagem_principal;
+    animation-duration: 3s;
+    animation-timeline: 3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+@keyframes mensagem_principal {
+    0% {
+      transform: translateX(-500px);
+    }
+  
+    100% {
+      transform: translateX(30px);
+    }
+}
+.imagem_principal {
+    grid-column: 8/13;
+    grid-row-start: 2;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.div-arredondada {
+    width: 450px;
+    height: 450px;
+    background-color: #da582f;
+    border-top-left-radius: 50% ;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+@media (max-widht: 700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .div-arredondada{
+        display: none;
+    }
+    .mensagem_principal {
+        padding: 8px
+    }
+    .imagem_principal {
+        width:300px ;
+        height: auto;
+    }
+} 

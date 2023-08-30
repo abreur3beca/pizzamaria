@@ -1,0 +1,17 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Merienda:wght@700&family=Oswald:wght@300&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
+
+@import url('');
+
+:root{
+    --cor-de-fundo: #836FFF;
+    --t-12: 12px;
+    --t-16: 16px;
+    --t-18: 18px;
+    --font-family-oswald: "Oswald";
+    --font-family-bangers: 'Bangers', cursive;
+    --cor-branca: white;
+    --cor-preta: black;
+}

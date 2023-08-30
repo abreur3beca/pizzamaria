@@ -1,0 +1,41 @@
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80px;
+
+}
+.sobre1{
+    background-color: #da582f;
+    width: 1100px;
+    height: 600px;
+    border-radius: 35px;
+    box-shadow: 10px 10px lightgray;
+    padding: 30px;
+}
+.sobre2{
+    background-color: transparent;
+    width: 1100px;
+    height: 600px;
+    border-radius: 35px;
+    box-shadow: 10px 10px lightgray;
+   
+}
+.imgpizza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textosobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+
+
+

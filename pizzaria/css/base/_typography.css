@@ -1,0 +1,41 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Oswald:wght@300&family=Press+Start+2P&family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Oswald:wght@300&family=Press+Start+2P&display=swap');
+.text-small{
+    font-size: var(--t-12);
+    font-family: var(--font-family);
+}
+.text-medium{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: var(--t-18);
+    font-family: var(--font-family-oswald);
+}
+.text-large{
+    font-size: var(--t-18);
+    font-family: var(--font-family-oswald);
+    margin-bottom: 24px;
+    font-weight:700;
+}
+.titulo_principal {
+    font-size: 78px;
+    font-family: var(--font-family-bangers);
+    text-align: center;
+    color: #da582f;
+}
+.texto-sobre{
+    font-size: var(--t-18);
+    font-family: var(--font-family-oswald);
+    margin-bottom: 24px;
+    font-weight:700;
+}
+.titulo-sobre{
+    font-size: 78px;
+    font-family: var(--font-family-bangers);
+    text-align: end;
+    
+}
